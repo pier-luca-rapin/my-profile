@@ -60,12 +60,13 @@ i:hover {
 	color: beige !important;
 }
 .topbar {
-	text-align: right;
+	text-align: center;
 	color: black;
 	font-size: 15px;
 	height: 15px;
 	margin-bottom: 15px;
 	font-family: 'Frank Ruhl Libre', serif;
+	background-color: black;
 }
 .intro {
 	text-align: center;
@@ -117,14 +118,8 @@ i:hover {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.carousel {
-	padding-right: 200px;
-	padding-left: 200px;
-	padding-bottom: 15px;
-	margin-bottom: 100px;
-}
 .carousel-inner:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .carousel-inner {
 	border-radius: 15%;
@@ -151,25 +146,22 @@ i:hover {
   display: none;
 }
 @media screen and (max-width:1900px) {
-
-	.container{
+	.container {
 		width: 700px;
 	}
 }
 @media screen and (max-width:1400px) {
-
-	.container{
+	.container {
 		width: 500px;
 	}
 	.carousel-inner:hover {
-  transform: scale(2);
+  transform: scale(1.2);
 }
 @media screen and (max-width:1000px) {
-
-	.container{
+	.container {
 		width: 300px;
 	}
 	.carousel-inner:hover {
-  transform: scale(2);
+  transform: scale(1.2);
 }
 }
